@@ -1,0 +1,23 @@
+start = '''
+You are sixteen years old. Your mother makes a few dollars a day working in a shoe factory. You have three younger siblings.
+For the past few days, your mom has been terribly ill.
+She asks you to go to her side and says "I am sorry, but are you willing to fill
+in for me again today?"
+'''
+ x = '''
+ There will be no source of income today, and your family will starve.
+ '''
+
+
+print(start)
+
+
+print("Type 'yes' to say yes or 'no' to say no.")
+user_input = input()
+if user_input == "yes":
+    print(" Yea, I'll do it. Get better.")
+
+elif user_input == "No":
+    print(" I can't do it again. I'm sorry.")
+    print(x)
+    done = True
